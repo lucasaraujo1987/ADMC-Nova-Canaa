@@ -4,6 +4,14 @@
     align-items: center;
 }
 
+.programacaopadrao{
+    color: #5e97fe;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    text-shadow: 2px 2px 5px black;
+}
+
 .slider{
     margin: 0 auto;
     width: 670px;
@@ -24,10 +32,12 @@
 .slide{
     width: 25%;
     position: relative;
+    transition: 1s;
 }
 
 .slide img{
     width: 670px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .manual-navigation{
