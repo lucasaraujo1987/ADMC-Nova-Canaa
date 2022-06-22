@@ -1,0 +1,139 @@
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 670px;
+    height: 405px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 405px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 670px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 670px;
+    margin-top: -55px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 15px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -125%;
+}
+
+#radio7:checked ~ .first{
+    margin-left: -150%;
+}
+
+#radio8:checked ~ .first{
+    margin-left: -175%;
+}
+
+.navigation-auto div{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 670px;
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 15px;
+}
+
+#radio1:checked ~.navigation-auto .auto-btn1{
+    background-color: white;
+}
+
+#radio2:checked ~.navigation-auto .auto-btn2{
+    background-color: white;
+}
+
+#radio3:checked ~.navigation-auto .auto-btn3{
+    background-color: white;
+}
+
+#radio4:checked ~.navigation-auto .auto-btn4{
+    background-color: white;
+}
+
+#radio5:checked ~.navigation-auto .auto-btn5{
+    background-color: white;
+}
+
+#radio6:checked ~.navigation-auto .auto-btn6{
+    background-color: white;
+}
+
+#radio7:checked ~.navigation-auto .auto-btn7{
+    background-color: white;
+}
+
+#radio8:checked ~.navigation-auto .auto-btn8{
+    background-color: white;
+}
