@@ -20,6 +20,10 @@
     margin-bottom: 10px;
 }
 
+.local > iframe{
+    margin-bottom: 20px;
+}
+
 @media (max-width: 600px){
     .local > iframe{
         width: 300px;
