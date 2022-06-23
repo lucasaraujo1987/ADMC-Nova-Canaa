@@ -27,12 +27,6 @@ body{
     margin: 20px;    
 }
 
-@media (max-width:600px){
-    .social > a{
-        margin: 10px;
-    }
-}
-
 .navegacao{
     display: flex;
     justify-content: center;
@@ -48,16 +42,6 @@ body{
     padding: 15px 0px;
 }
 
-@media (max-width: 600px){
-    .navegacao > a{
-        color: white;
-        margin: 0px 10px 0px 10px;
-        font-weight: bolder;
-        font-size: 11px;
-        padding: 15px 0px;
-    }
-}
-
 .navegacao > a:hover{
     color: #5e97fe;
     margin: 0px 25px 0px 25px;
@@ -66,6 +50,40 @@ body{
 }
 
 @media (max-width: 600px){
+    .social > a{
+        margin: 10px;
+    }
+
+    .navegacao > a{
+        color: white;
+        margin: 0px 10px 0px 10px;
+        font-weight: bolder;
+        font-size: 11px;
+        padding: 15px 0px;
+    }
+
+    .navegacao > a:hover{
+        color: #5e97fe;
+        margin: 0px 10px 0px 10px;
+        font-weight: bolder;
+        font-size: 11px;
+        transition: 0.4s;
+    }
+}
+
+@media (max-width: 470px){
+    .social > a{
+        margin: 10px;
+    }
+
+    .navegacao > a{
+        color: white;
+        margin: 0px 7px 0px 7px;
+        font-weight: bolder;
+        font-size: 9px;
+        padding: 15px 0px;
+    }
+
     .navegacao > a:hover{
         color: #5e97fe;
         margin: 0px 10px 0px 10px;
