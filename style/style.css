@@ -14,7 +14,7 @@ body{
 
 #cabecalho{
     background-color: rgba(0, 0, 0, 0.209);
-    padding: 10px 50px 0px 50px;
+    padding: 10px 0px 0px 0px;
 }
 
 .cabecalho{
@@ -73,7 +73,7 @@ body{
 
 @media (max-width: 470px){
     .social > a{
-        margin: 10px;
+        margin: 3px;
     }
 
     .navegacao > a{
@@ -86,9 +86,9 @@ body{
 
     .navegacao > a:hover{
         color: #5e97fe;
-        margin: 0px 10px 0px 10px;
+        margin: 0px 7px 0px 7px;
         font-weight: bolder;
-        font-size: 11px;
+        font-size: 9px;
         transition: 0.4s;
     }
 }
