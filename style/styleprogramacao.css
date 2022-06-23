@@ -185,6 +185,15 @@
 }
 
 @media (max-width: 150px){
+    .programacaopadrao{
+        color: #5e97fe;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+        text-shadow: 2px 2px 5px black;
+        font-size: 11px;
+    }
+
     .slider{
         margin: 0 auto;
         width: 240px;
