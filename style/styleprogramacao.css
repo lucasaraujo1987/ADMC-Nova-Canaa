@@ -148,41 +148,7 @@
     background-color: white;
 }
 
-@media (max-width: 500px){
-    .slider{
-        margin: 0 auto;
-        width: 480px;
-        height: 270px;
-        overflow: hidden;
-    }
 
-    .slides{
-        width: 400%;
-        height: 270px;
-        display: flex;
-    }
-
-    .slide img{
-        width: 480px;
-        box-shadow: 2px 2px 5px black;
-    }
-
-    .manual-navigation{
-        position: absolute;
-        width: 480px;
-        margin-top: -15px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .navigation-auto{
-        position: absolute;
-        width: 480px;
-        margin-top: 255px;
-        display: flex;
-        justify-content: center;
-    }
-}
 
 @media (max-width: 150px){
     .programacaopadrao{
