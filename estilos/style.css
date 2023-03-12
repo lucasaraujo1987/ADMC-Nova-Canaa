@@ -21,17 +21,13 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: blue;
+    background-color: grey;
     border-radius: 10px;
     padding: 10px 0px;
 }
 
 .social > a{
     padding-left: 1px;    
-}
-
-main{
-    padding: 0px 20px;
 }
 
 menu > ul > li{
@@ -68,8 +64,15 @@ span#burguer{
     list-style-type: none;
 }
 
+main{
+    margin: 0px 5px;
+    height: 60vh;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
 main > h1{
     font-size: 20px;
-    margin-top: 20px;
     text-align: center;
 }
