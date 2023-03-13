@@ -32,7 +32,7 @@ header{
 
 menu > ul > li{
     padding-top: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 menu > ul > li > a{
@@ -50,7 +50,6 @@ menu > ul > li > a:hover{
 
 span#burguer{
     font-size: 35px;
-    text-align: center;
     display: block;
     color: #242424;  
     font-weight: bolder;  
