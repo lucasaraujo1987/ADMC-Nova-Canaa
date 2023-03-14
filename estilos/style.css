@@ -28,12 +28,12 @@ header{
 
 .social{
     background-color: mediumturquoise;  
-    padding: 5px 5px 2px 5px;
+    padding: 10px 10px 7px 10px;
     border-radius: 50px;
 }
 
 .social > a{
-    padding: 0px 5px;  
+    padding: 0px 7px;  
 }
 
 menu > ul > li{
