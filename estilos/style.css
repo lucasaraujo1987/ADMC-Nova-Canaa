@@ -21,7 +21,7 @@ header{
 
 #logo-redes{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 10px;
 }
@@ -45,17 +45,19 @@ menu > ul > li > a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 menu > ul > li > a:hover{
     color: white;
-    background-color: #242424;
+    background-color: mediumturquoise;
+    padding: 5px;
+    border-radius: 50px;
 }
 
 span#burguer{
     text-align: left;
-    font-size: 35px;
+    font-size: 50px;
     display: block;
     color: mediumturquoise;  
     font-weight: bolder;
