@@ -32,3 +32,8 @@ td > a{
     text-decoration: none;
     color: darkorange;
 }
+
+#meses{
+    font-size: 15px;
+    text-align: center;
+}
