@@ -106,7 +106,7 @@ main > h1{
 
 /*Fim Página Onde Estamos*/
 
-
+/*Início Página Devocional*/
 
 .devocional{
     background: url('../imagens/Devocional-Charles-Spurgeon.png') no-repeat center center;
@@ -122,3 +122,5 @@ main > h1{
 .leitura{
     border-radius: 4px;
 }
+
+/*Fim Página Devocional*/
