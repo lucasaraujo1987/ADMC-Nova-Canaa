@@ -66,6 +66,16 @@ span#burguer{
     padding-right: 10px;
 }
 
+span#fechar{
+    text-align: right;
+    font-size: 50px;
+    display: block;
+    color: mediumturquoise;  
+    font-weight: bolder;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
 #itens{
     text-align: center;
     display: none;
@@ -123,3 +133,8 @@ main > h1{
 }
 
 /*Fim Página Devocional*/
+
+#programacao > h2{
+    color: blue;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.324);
+}
