@@ -9,6 +9,7 @@ table{
     margin: auto;
     width: 200px;
     border-collapse: collapse;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.324);
 }
 
 th{
