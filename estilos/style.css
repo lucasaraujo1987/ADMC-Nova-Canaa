@@ -90,7 +90,7 @@ span#fechar{
 
 main{
     text-align: center;
-    margin: 0px 5px;
+    margin: 15px 5px 5px 5px;
     padding: 5px;
     border-radius: 10px;
 }
@@ -103,7 +103,6 @@ main > h1{
 }
 
 footer{
-    background-position-y: bottom;
     margin-top: 10px;
     width: 100vw;
     background-color: darkslategray;
