@@ -69,7 +69,7 @@ span#burguer{
 span#fechar{
     text-align: right;
     font-size: 50px;
-    display: block;
+    display: none;
     color: mediumturquoise;  
     font-weight: bolder;
     cursor: pointer;
@@ -96,6 +96,16 @@ main > h1{
     padding-bottom: 10px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.324);
 }
+
+footer{
+    margin-top: 10px;
+    width: 100vw;
+    background-color: darkslategray;
+    text-align: center;
+    padding: 10px 0px;
+    bottom: 0;
+}
+
 /*Início Página Onde Estamos*/
 .local{
     text-align: left;
