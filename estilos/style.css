@@ -101,6 +101,8 @@ main{
 }
 
 main > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
     font-size: 20px;
     text-align: center;
     padding-bottom: 10px;
