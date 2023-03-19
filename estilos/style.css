@@ -22,17 +22,22 @@ body{
 
 header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: black;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.324);
-    padding: 0px 5px 0px 0px;
+    padding: 5px 0px;
+}
+
+.logo{
+    padding: 5px 0px 0px 15px;
 }
 
 #logo-redes{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+    flex-direction: column;
+    align-items: end;
+    padding: 15px 15px 0px 0px;
 }
 
 .social{
@@ -72,7 +77,6 @@ span#burguer{
     color: mediumturquoise;  
     font-weight: bolder;
     cursor: pointer;
-    padding-right: 10px;
 }
 
 span#fechar{
@@ -82,7 +86,6 @@ span#fechar{
     color: mediumturquoise;  
     font-weight: bolder;
     cursor: pointer;
-    padding-right: 10px;
 }
 
 #itens{
