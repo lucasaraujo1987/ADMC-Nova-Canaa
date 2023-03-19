@@ -26,18 +26,18 @@ header{
     justify-content: space-between;
     background-color: black;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.324);
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 
 .logo{
-    padding: 5px 0px 0px 15px;
+    padding: 5px 0px 0px 20px;
 }
 
 #logo-redes{
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding: 15px 15px 0px 0px;
+    padding: 10px 20px 0px 0px;
 }
 
 .social{
@@ -53,7 +53,7 @@ header{
 menu > ul > li{
     padding-top: 10px;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 menu > ul > li > a{
@@ -72,20 +72,22 @@ menu > ul > li > a:hover{
 
 span#burguer{
     text-align: right;
-    font-size: 50px;
+    font-size: 40px;
     display: block;
     color: mediumturquoise;  
     font-weight: bolder;
     cursor: pointer;
+    padding-top: 20px;
 }
 
 span#fechar{
     text-align: right;
-    font-size: 50px;
+    font-size: 40px;
     display: none;
     color: mediumturquoise;  
     font-weight: bolder;
     cursor: pointer;
+    padding-top: 20px;
 }
 
 #itens{
