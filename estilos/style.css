@@ -25,14 +25,14 @@ header{
     flex-direction: column;
     background-color: black;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.324);
-    padding: 10px 5px 0px 5px;
+    padding: 0px 5px 0px 0px;
 }
 
 #logo-redes{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .social{
