@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>Nova Canaã</title>
+</head>
+<body>
+    <header>
+            <a class="logo" href="../index.html"><img src="../imagens/Logo-ADMC-Nova-Canaã-Simples-logo-header.png" alt="ADMC Nova Canaã"></a>
+        <div id="logo-redes">
+            <div class="social">
+                <a href="https://www.facebook.com/nova.canaa.75" target="_blank"><img src="../imagens/facebook-logo-topo.png" alt="facebook"></a>
+                <a href="#"><img src="../imagens/twitter_logo-topo.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/umadcan_admc/" target="_blank"><img src="../imagens/Instagram-logo-topo.png" alt="instagram"></a>
+                <a href="#"><img src="../imagens/youtube-logo-topo.png" alt="youtube"></a>
+            </div>   
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()" >menu</span>
+        <span id="fechar" class="material-symbols-outlined" onclick="clickMenu()" >close</span>
+        <menu>
+            <ul id="itens">
+                <li><a href="../index.html">INÍCIO</a></li>
+                <li><a href="programacao.html" >PROGRAMAÇÃO</a></li>
+                <li><a href="devocional.html">DEVOCIONAL</a></li>
+                <li><a href="quemsomos.html">QUEM SOMOS</a></li>
+                <li><a href="ondeestamos.html">ONDE ESTAMOS</a></li>
+                <li><a href="midia.html" style="background-color: mediumturquoise; padding: 5px;border-radius: 50px;">MÍDIA</a></li>
+            </ul>
+        </menu>
+        </div>
+    </header>
+    
+    <main>        
+        <h1>ASSEMBLEIA DE DEUS<br>NOVA CANAÃ</h1>
+        <div class="gallery-container">
+            <a href="../imagens/festividade60anos/FestividadeADMC (1).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (1).jpeg" alt="Chick Hicks">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (2).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (2).jpeg" alt="Doctor Hudson">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (3).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (3).jpeg" alt="Fillmore">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (4).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (4).jpeg" alt="Flo">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (5).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (5).jpeg" alt="Guido">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (6).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (6).jpeg" alt="lightning-mcqueen">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (7).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (7).jpeg" alt="Lizzie">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (8).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (8).jpeg" alt="Luigi">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (9).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (9).jpeg" alt="Mack">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (10).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (10).jpeg" alt="Ramone">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (11).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (11).jpeg" alt="Ruivo">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (12).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (12).jpeg" alt="Sally">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (13).jpeg" class="gallery-items">
+                <img src="i../imagens/festividade60anos/FestividadeADMC (13).jpeg" alt="Sheriff">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (14).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (14).jpeg" alt="Sven">
+            </a>
+            <a href="../imagens/festividade60anos/FestividadeADMC (15).jpeg" class="gallery-items">
+                <img src="../imagens/festividade60anos/FestividadeADMC (15).jpeg" alt="The King">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <a href="../index.html"><img src="../imagens/Logo-ADMC-Nova-Canaã-Simples-logo-header.png" alt="ADMC Nova Canaã"></a>
+    </footer>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+                burguer.style.display = 'block'
+                fechar.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+                burguer.style.display = 'none'
+                fechar.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
