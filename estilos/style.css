@@ -116,6 +116,11 @@ main > h1{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.324);
 }
 
+#menu-index{
+    display: flex;
+    flex-direction: column;
+}
+
 footer{
     margin-top: 10px;
     width: 100vw;
