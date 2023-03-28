@@ -121,6 +121,10 @@ main > h1{
     flex-direction: column;
 }
 
+#menu-index > a{
+    padding-bottom: 10px;
+}
+
 footer{
     margin-top: 10px;
     width: 100vw;
