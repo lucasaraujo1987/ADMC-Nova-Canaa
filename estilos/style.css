@@ -167,6 +167,7 @@ footer{
 }
 
 .leitura{
+    overflow: hidden;
     border-radius: 4px;
 }
 
